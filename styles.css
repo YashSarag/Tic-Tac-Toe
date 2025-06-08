@@ -10,7 +10,11 @@
     overflow-x: hidden;
     overflow-y: auto;
     background-image: url(./assets/gradient-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     font-family: "Poppins", sans-serif;
+    position: relative;
 }
 
 .container{
@@ -89,6 +93,7 @@
     border-radius: 0.9375rem;
     cursor: pointer;
     display: none;
+    text-align: center;
 }
 
 .new-game-btn.active{
