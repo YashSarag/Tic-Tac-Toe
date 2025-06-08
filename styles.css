@@ -108,6 +108,9 @@
     .game-info{
         width: 60%;
     }
+    .new-game-btn{
+        bottom:100px;
+    }
 }
 
 @media(max-width:350px){
