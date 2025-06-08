@@ -121,6 +121,9 @@
     .new-game-btn{
         width: 60%;
     }
+    .new-game-btn{
+        bottom: 50px;
+    }
 }
 
 @media(max-width:300px){
@@ -130,6 +133,9 @@
     .game-info,.new-game-btn{
         font-size: 13px;
         width: 75%;
+    }
+    .new-game-btn{
+        bottom: 50px;
     }
 }
 
@@ -142,5 +148,5 @@
         width: 75%;
     }
     .new-game-btn{
-        bottom:5rem
-}
+        bottom:50px
+    }
